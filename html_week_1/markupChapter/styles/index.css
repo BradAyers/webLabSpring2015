@@ -1,0 +1,50 @@
+header {
+    background-color: blue;
+    padding: 20px 0px;
+}
+
+
+/* BEGIN FONT STYLES */
+h1 {
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgba(0,0,0, 0.5);
+}
+
+h2 {
+    font-size: 24px;
+    font-family: sans-serif;
+    text-align: center;
+    border-bottom: 6px double #000000;
+    width: 50%;
+    margin: 20px auto;
+}
+
+p {
+    text-indent: 3em;
+    font-size: 18px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px 0px;
+}
+/* END FONT STYLES */
+
+
+/* BEGIN ANCHOR STYLES */
+a {
+    font-size: 18px;
+    text-shadow: 5px 5px 5px rgba(0,0,0, 0.5);
+}
+/* END ANCHOR STYLES */
+ul {
+    width: 50%;
+    margin: 0 auto;
+}
+
+pre {
+    font-size: 18px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px 0px;
+}

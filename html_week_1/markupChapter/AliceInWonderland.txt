@@ -589,7 +589,7 @@ the Mouse's tail; 'but why do you call it sad?' And she kept on puzzling
 about it while the Mouse was speaking, so that her idea of the tale was
 something like this:--
 
-         'Fury said to a
+         <pre>'Fury said to a
          mouse, That he
         met in the
        house,
@@ -632,7 +632,7 @@ something like this:--
            condemn
            you
           to
-           death."'
+           death."'</pre>
 
 
 'You are not attending!' said the Mouse to Alice severely. 'What are you

@@ -1,0 +1,68 @@
+#panel3 {
+    background: transparent url(../images/panel3.jpg) no-repeat top left;
+    height: 305px;
+    width: 903px;
+}
+
+#panel5 {
+    background: transparent url(../images/panel5.jpg);
+    height: 556px;
+    width: 572px;
+}
+.row {
+    width: 908px;
+    margin: auto;
+    position: relative;
+}
+
+#row3 div {
+    float: left;
+}
+
+.bump {
+    display: inline-block;
+}
+
+.bump5 {
+    margin-left: 5px;
+}
+
+.bump10 {
+    margin-left: 10px;
+}
+
+.bubbles {
+    position: absolute;
+    font-family: arial;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+#bubble1 {
+    position: absolute;
+    top: 12px;
+    left: 21px;
+    font-family: arial;
+    font-size: 19px;
+}
+
+#bubble2 {
+    top: 13px;
+    left: 169px;
+    width: 283px;
+    font-size: 14px;
+}
+
+#bubble3 {
+    top: 88px;
+    left: 254px;
+    font-size: 15px;
+    width: 235px;
+}
+
+#bubble4 {
+    top: 16px;
+    left: 483px;
+    font-size: 15px;
+    width: 209px;
+}
