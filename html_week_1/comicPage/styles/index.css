@@ -1,5 +1,26 @@
+body {
+    line-height: 1;
+}
+
+/* ### FONT STYLING FOR COMIC RELIEF FROM FONTSQUIRREL ### */
+@font-face {
+    font-family: 'comic_reliefregular';
+    src: url('../fonts/comic_relief/ComicRelief-webfont.eot');
+    src: url('../fonts/comic_relief/ComicRelief-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/comic_relief/ComicRelief-webfont.woff') format('woff'),
+    url('../fonts/comic_relief/ComicRelief-webfont.ttf') format('truetype'),
+    url('../fonts/comic_relief/ComicRelief-webfont.svg#comic_reliefregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+bold {
+    font-weight: 900;
+}
+
+/* ### RENDERS IMAGES FROM CSS RATHER THAN USING IMG TAG IN HTML BODY ### */
 #panel3 {
-    background: transparent url(../images/panel3.jpg) no-repeat top left;
+    background: transparent url(../images/panel3.jpg) no-repeat top left;)
     height: 305px;
     width: 903px;
 }
@@ -9,8 +30,10 @@
     height: 556px;
     width: 572px;
 }
+
+/* ### POSITIONS EACH ROW ### */
 .row {
-    width: 908px;
+    width: 920px;
     margin: auto;
     position: relative;
 }
@@ -19,6 +42,7 @@
     float: left;
 }
 
+/* ### CODE TO INDENT TEXT ### */
 .bump {
     display: inline-block;
 }
@@ -31,9 +55,18 @@
     margin-left: 10px;
 }
 
+.bump20 {
+    margin-left: 20px;
+}
+
+.bump30 {
+    margin-left: 30px;
+}
+
+/* ### CODE TO STYLE AND POSITION TEXT IN BUBBLES ###*/
 .bubbles {
     position: absolute;
-    font-family: arial;
+    font-family: 'comic_reliefregular' arial sans-serif;
     font-size: 17px;
     text-transform: uppercase;
 }
@@ -42,25 +75,124 @@
     position: absolute;
     top: 12px;
     left: 21px;
-    font-family: arial;
+    font-family: 'comic_reliefregular' arial sans-serif;
     font-size: 19px;
 }
 
 #bubble2 {
     top: 13px;
-    left: 169px;
-    width: 283px;
-    font-size: 14px;
+    left: 143px;
+    width: 314px;
+    font-size: 15px;
 }
 
 #bubble3 {
     top: 88px;
-    left: 254px;
+    left: 249px;
     font-size: 15px;
-    width: 235px;
+    width: 207px;
+
 }
 
 #bubble4 {
+    top: 16px;
+    left: 483px;
+    font-size: 15px;
+    width: 209px;
+}
+
+#bubble5 {
+    top: 16px;
+    left: 665px;
+    font-size: 15px;
+    width: 240px;
+}
+
+#bubble6 {
+    top: 16px;
+    left: 483px;
+    font-size: 15px;
+    width: 209px;
+}
+#bubble7 {
+    top: 16px;
+    left: 483px;
+    font-size: 15px;
+    width: 209px;
+}
+#bubble8 {
+    top: 16px;
+    left: 483px;
+    font-size: 15px;
+    width: 209px;
+}
+#bubble9 {
+    top: 16px;
+    left: 483px;
+    font-size: 15px;
+    width: 209px;
+}
+#bubble10 {
+    top: 16px;
+    left: 483px;
+    font-size: 15px;
+    width: 209px;
+}
+#bubble11 {
+    top: 16px;
+    left: 483px;
+    font-size: 15px;
+    width: 209px;
+}
+#bubble12 {
+    top: 16px;
+    left: 483px;
+    font-size: 15px;
+    width: 209px;
+}
+#bubble13 {
+    top: 16px;
+    left: 483px;
+    font-size: 15px;
+    width: 209px;
+}
+
+#bubble14 {
+    top: 16px;
+    left: 483px;
+    font-size: 15px;
+    width: 209px;
+}
+
+#bubble15 {
+    top: 16px;
+    left: 483px;
+    font-size: 15px;
+    width: 209px;
+}
+
+#bubble16 {
+    top: 16px;
+    left: 483px;
+    font-size: 15px;
+    width: 209px;
+}
+
+#bubble17 {
+    top: 16px;
+    left: 483px;
+    font-size: 15px;
+    width: 209px;
+}
+
+#bubble18 {
+    top: 16px;
+    left: 483px;
+    font-size: 15px;
+    width: 209px;
+}
+
+#bubble19 {
     top: 16px;
     left: 483px;
     font-size: 15px;

@@ -1,6 +1,17 @@
+body {
+    background-image: url('images/bgimage.jpg');
+    background-repeat: repeat;
+}
+
+div#container {
+    background-color: white;
+    width: 50%;
+    margin: 0 auto;
+}
+
 header {
-    background-color: blue;
-    padding: 20px 0px;
+    background-color: red;
+    padding: 20px 0;
 }
 
 
@@ -9,7 +20,7 @@ h1 {
     font-size: 36px;
     color: white;
     text-align: center;
-    text-shadow: 5px 5px 5px rgba(0,0,0, 0.5);
+    text-shadow: 10px 10px 10px rgba(0,0,0, 0.75);
 }
 
 h2 {
@@ -17,34 +28,53 @@ h2 {
     font-family: sans-serif;
     text-align: center;
     border-bottom: 6px double #000000;
-    width: 50%;
     margin: 20px auto;
 }
 
 p {
     text-indent: 3em;
     font-size: 18px;
-    width: 50%;
     margin: 0 auto;
-    padding: 10px 0px;
+    padding: 10px 0;
 }
 /* END FONT STYLES */
 
 
 /* BEGIN ANCHOR STYLES */
 a {
-    font-size: 18px;
-    text-shadow: 5px 5px 5px rgba(0,0,0, 0.5);
+    color: red;
+    font-size: 24px;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.75);
+
+    line-height: 3;
+}
+
+a:hover {
+    background-color: red;
+    color: white;
 }
 /* END ANCHOR STYLES */
+
 ul {
-    width: 50%;
+    width: 25%;
     margin: 0 auto;
+    list-style-image: url(../images/mushroom.jpg);
 }
 
 pre {
     font-size: 18px;
     width: 50%;
     margin: 0 auto;
-    padding: 10px 0px;
+    padding: 10px 0;
+}
+
+/* IMAGE STYLES */
+img.right {
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+img.left {
+    float: left;
+    margin: 0 10px 10px 0;
 }
