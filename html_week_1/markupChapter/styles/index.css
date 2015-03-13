@@ -1,17 +1,19 @@
 body {
-    background-image: url('images/bgimage.jpg');
-    background-repeat: repeat;
+    background: url("../images/bgimage.jpg") repeat;
 }
 
 div#container {
     background-color: white;
     width: 50%;
     margin: 0 auto;
+    padding: 20px;
+    border: 2px red solid;
+    border-radius: 20px;
 }
 
 header {
     background-color: red;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 
@@ -27,8 +29,9 @@ h2 {
     font-size: 24px;
     font-family: sans-serif;
     text-align: center;
-    border-bottom: 6px double #000000;
-    margin: 20px auto;
+    border-bottom: 17px double lightgray;
+    margin: 0 auto;
+    line-height: 2;
 }
 
 p {
@@ -45,7 +48,7 @@ a {
     color: red;
     font-size: 24px;
     text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.75);
-
+    text-decoration: none;
     line-height: 3;
 }
 
