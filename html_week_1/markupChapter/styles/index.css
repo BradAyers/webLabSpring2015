@@ -81,3 +81,37 @@ img.left {
     float: left;
     margin: 0 10px 10px 0;
 }
+
+img.center {
+    margin: 0 auto;
+}
+/* CHAPTER SELECTOR STYLES */
+ul#selector {
+    width: 50%;
+    margin: 20px auto;
+}
+
+ul#selector li {
+    display: inline;
+    margin: 0 25px;
+}
+
+ul#selector a {
+    line-height: 1;
+    border-radius: 10px;
+}
+
+li#selected {
+    border: red solid 2px;
+    border-radius: 10px;
+    font-size: 24px;
+    display: inline;
+    color: white;
+    background-color: red;
+}
+
+/* DIV FOR TILING MUSHROOM IMAGES AT BOTTOM OF EACH PAGE */
+div#bottom {
+    background: url("../images/mushroom.jpg") repeat-x;
+    height: 35px;
+}
