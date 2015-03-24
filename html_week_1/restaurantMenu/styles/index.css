@@ -2,24 +2,10 @@ body {
     background: #333333;
 }
 
-#container {
-    width: 75%;
-    margin: 0 auto;
-    padding: 25px;
-    background: white;
-    border: 5px double black;
-}
-
-.specialDishes {
-    width: 98%;
-    padding: 5px;
-    border: 3px solid red;
-    border-radius: 10px;
-}
-
 /* ### BEGIN FONT STYLES ### */
 h2 {
     font-size: 24px;
+    display: inline;
 }
 
 h3 {
@@ -28,6 +14,11 @@ h3 {
 
 h4 {
     font-size: 10px;
+    display: inline;
+}
+
+p {
+    font-size: 15px;
 }
 
 /* ### END FONT STYLES ### */
@@ -35,17 +26,113 @@ h4 {
 /* ### BEGIN TABLE STYLES ### */
 td.dish {
     width: 50%;
-    border: solid 1px;
     padding: 0;
+    margin: 0;
 }
 
 td.price {
-    width: 10%;
-    border: solid 1px;
+    width: 13%;
     padding: 0;
+    margin: 0;
 }
+
+td.dash_after {
+    float:left;
+    width: 420px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+td.dash_after::after {
+    content: "..........................................................................................................";
+}
+
+td.before_dash::before {
+    content: "..................";
+}
+
 /* ### END TABLE STYLES ### */
+
+/* ### BEGIN POSITIONING STYLES ### */
+
+#container {
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+    padding: 25px;
+    background: white;
+    border: 5px double black;
+    overflow: hidden;
+}
+
+.specialDishes {
+    display: block;
+    width: 98%;
+    padding: 5px;
+    border: 3px solid red;
+    border-radius: 10px;
+}
+
+.col {
+    width: 48%;
+    margin: 10px 0;
+    padding: 5px;
+    float: left;
+}
+
+.hours {
+    font-size: 12px;
+}
+
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+/* ### END POSITIONING STYLES ### */
+
+/* ### BEGIN TWO COLUMN STYLES ### */
+.lunchSpecials {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.big {
+    font-size: 32px; /* for larger Lunch Special font size */
+}
+
+span.itemNumber {
+    float: left;
+    width: 12%;
+}
+
+span.itemName{
+    float:left;
+    width: 275px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+span.pepper::after {
+    content: url("../images/pepper.gif");
+}
+
+span.itemName::after{
+    content: "..........................................................................................................";
+}
+/* ### END TWO COLUMN STYLES ### */
 
 .red {
     color: red;
+}
+
+.green {
+    color: green;
 }
