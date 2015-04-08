@@ -1,0 +1,13 @@
+/* FONT STYLING */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cabin', sans-serif;
+}
+
+.container {
+    background-color: lightskyblue;
+}
+
+.header {
+    background-image: url(../img/header_background.jpg);
+    height: 1180px;
+}
