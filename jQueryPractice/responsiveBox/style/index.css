@@ -1,0 +1,20 @@
+/* Main container style */
+#container {
+    background: black;
+    overflow: hidden;
+    width: 475px;
+    margin: 0 auto;
+}
+
+/* gameBox style */
+.gameBox {
+    background: white;
+    width: 150px;
+    height: 150px;
+    margin: 4px;
+    float: left;
+}
+
+.active {
+    background: darkgray;
+}
