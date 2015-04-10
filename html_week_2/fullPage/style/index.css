@@ -1,13 +1,188 @@
-/* FONT STYLING */
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Cabin', sans-serif;
-}
-
 .container {
     background-color: lightskyblue;
+    width: 1180px;
+    margin: 0 auto;
+    border: solid 1px #25AA99;
+    padding: 1px;
 }
 
+/* FONT STYLING */
+h1, h2, h3, h4, h5, h6, p, a {
+    font-family: 'Cabin', sans-serif;
+    color: black;
+}
+h1 {
+    font-size: 38px;
+}
+
+h3 {
+    font-size: 19px;
+}
+
+h4 {
+    font-size: 14px;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* HEADER STYLE */
 .header {
+    height: 624px;
+    margin: 0 auto;
     background-image: url(../img/header_background.jpg);
-    height: 1180px;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    position: absolute;
+    left: 205px;
+    top: 85px;
+}
+
+.nav {
+    position: absolute;
+    right: 115px;
+    top: 75px;
+}
+
+.nav li {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+.nav li a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+/* CSS FOR HAMBURGER MENU IN NAV BAR */
+.box-shadow-menu {
+    position: relative;
+    padding-left: 1.25em;
+}
+.box-shadow-menu:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.25em;
+    width: 1em;
+    height: 0.15em;
+    background: white;
+    box-shadow:
+    0 0.25em 0 0 white,
+    0 0.5em 0 0 white;
+}
+
+.headerPhrases {
+    width: 65%;
+    position: absolute;
+    left: 205px;
+    bottom: 98px;
+}
+
+.largePhrase p {
+    font-size: 38px;
+    margin: 0;
+    color: white;
+}
+
+.smallPhrase p {
+    font-size: 19px;
+    margin: 20px 0 45px 0;
+    color: white;
+}
+
+/* MAIN CONTENT STYLE */
+.content {
+    padding: 0px 100px;
+}
+
+.notification {
+    background-color: #25AA99;
+    border-radius: 10px;
+    width: 100%;
+    margin: 33px auto;
+    padding: 20px;
+}
+
+.notification p {
+    display: inline;
+    font-size: 17px;
+    color: white;
+}
+
+.notification img {
+    float: right;
+    padding: 7px;
+}
+
+.topVids {
+    padding: 35px 0;
+    overflow: hidden;
+}
+
+.topVids div {
+    float: left;
+}
+
+.vidOne, .vidTwo, .vidThree {
+    padding-right: 33px;
+}
+
+.topVids h3 {
+     line-height: .5; /* Adjust this h3 line height for the video section */
+}
+
+.contributor {
+    color: #25AA99;
+    line-height: .5;
+}
+
+.views {
+    color: #6FB3C7;
+    line-height: .5;
+}
+
+.views span::after {
+    content: '\2022';   /* The dot between views content */
+    padding: 0 10px;
+}
+
+.graph {
+    background: url('../img/graph.png');
+    height: 456px;
+    width: 940px;
+    margin: 30px auto;
+}
+
+.subscribe {
+    background: #25AA99;
+    padding: 50px;
+    clear: both;
+    overflow: hidden;
+    margin-top: 95px;
+}
+
+.subscribe h4 {
+    color: white;
+    font-size: 15px;
+    letter-spacing: .1em;
+    display: inline;
+}
+
+.formStuff {
+    background: white;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.formElement {
+    float: left;
+}
+
+form {
+    display: inline;
 }
